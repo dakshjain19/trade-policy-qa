@@ -28,7 +28,7 @@ flowchart TD
     U --> V["Reciprocal-rank fusion"]
     V --> W["Rule expansion and exact-string safety net"]
     W --> Y["Retrieved current clauses"]
-    Y --> Z["Grounded answer generation (Claude)"]
+    Y --> Z["Grounded answer generation (Gemini)"]
     Z --> AA["Citation and metadata validation"]
     AA --> AB["Answer + source citation"]
     AA -->|"Invalid / unsupported"| X
@@ -101,7 +101,7 @@ The retrieval path is:
 **Implementation:** `src/generation.py`
 
 - If the query is flagged as out of scope, or retrieval returns no clauses, the system returns the refusal text without calling the language model.
-- Otherwise, only retrieved current clauses are supplied to Claude.
+- Otherwise, only retrieved current clauses are supplied to Gemini.
 - The prompt instructs the model to use no outside knowledge, state conditions, and cite the relevant section(s).
 - The application checks that the answer contains a source section and that every cited section is among the retrieved current clauses.
 - For Modern Trade discount questions, it additionally requires citations to both Sections 3 and 3.1.
@@ -149,7 +149,7 @@ Run these commands from the project root. On Windows PowerShell, activation is o
 .venv\Scripts\python.exe ask.py "What is the employee leave policy?"
 ```
 
-The first index build downloads the sentence-transformer model. Answerable questions require `ANTHROPIC_API_KEY` to be configured. The explicit HR scope refusal and empty-retrieval refusal do not require a model call.
+The first index build downloads the sentence-transformer model. Answerable questions require `GEMINI_API_KEY` to be configured. The explicit HR scope refusal and empty-retrieval refusal do not require a model call.
 
 ## 6. Current sample versus intended larger-corpus design
 
