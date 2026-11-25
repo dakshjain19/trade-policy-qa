@@ -1,0 +1,83 @@
+NIRMAL FOODS PVT LTD
+TRADE PROMOTION, CLAIMS AND APPROVALS POLICY
+Version 2.0 | Effective date: 1 April 2025 | Owner: Sales Operations
+
+SECTION 1. PURPOSE AND SCOPE
+This policy sets the rules for trade discounts, promotional schemes,
+retailer claims and distributor credit at Nirmal Foods Pvt Ltd. It
+applies to all field sales staff, Area Sales Managers, Regional Sales
+Managers and appointed distributors across India. It does not cover
+employee travel, payroll, leave or any other HR matter. Those are
+covered in separate HR policies.
+
+SECTION 2. DEFINITIONS
+2.1 General Trade (GT): independent kirana stores, small grocers and
+wholesalers served through distributors.
+2.2 Modern Trade (MT): organised retail chains such as supermarkets and
+hypermarkets, with centralised buying.
+2.3 E-commerce (EC): online marketplaces and quick-commerce platforms.
+2.4 Scheme: any time-bound promotional offer, including price-offs,
+bundle offers, free goods and display incentives.
+2.5 ASM: Area Sales Manager. RSM: Regional Sales Manager.
+
+SECTION 3. MAXIMUM TRADE DISCOUNT BY CHANNEL
+The maximum trade discount that may be offered on invoice value is
+given below. Any discount above these limits is not permitted, even
+with approval.
+
+| Channel          | Maximum discount | Notes                              |
+|------------------|------------------|------------------------------------|
+| General Trade    | 8%               | Applies at distributor invoice     |
+| Modern Trade     | 12%              | Includes listing and margin support|
+| E-commerce       | 10%              | Excludes platform-funded offers    |
+
+3.1 Revision note: In Version 1.0 (2024), the Modern Trade limit was
+15%. From 1 April 2025 the Modern Trade limit is reduced to 12%.
+All new Modern Trade agreements must follow the 12% limit.
+
+SECTION 4. SCHEME APPROVAL MATRIX
+Every scheme must be approved before launch. The approver depends on
+the total estimated scheme value.
+4.1 Scheme value up to Rs 1 lakh: approved by the Area Sales Manager.
+4.2 Scheme value above Rs 1 lakh and up to Rs 5 lakh: approved by the
+Regional Sales Manager.
+4.3 Scheme value above Rs 5 lakh: joint approval by the Head of Sales
+and the Finance Controller.
+4.4 Schemes must be submitted at least 10 working days before the
+planned launch date.
+4.5 A scheme launched without approval will not be reimbursed.
+
+SECTION 5. RETAILER CLAIMS
+5.1 Damaged goods: the retailer must file a claim within 15 days of
+the delivery date. Claims must include photographs of the damaged
+stock and the original invoice number.
+5.2 Near-expiry stock: stock may be returned if it is within 30 days
+of its expiry date. Returns are accepted only for General Trade.
+5.3 Short supply: shortfalls must be noted on the delivery challan at
+the time of delivery. Later claims for short supply are rejected.
+5.4 Settlement: approved claims are settled as a credit note within
+45 days of claim approval.
+5.5 Claims above Rs 50,000 require verification by the RSM before
+approval.
+
+SECTION 6. DISPLAY AND VISIBILITY INCENTIVES
+6.1 Display rental for a premium shelf or end-cap may be paid to
+Modern Trade stores only.
+6.2 Display rental is capped at Rs 5,000 per store per month.
+6.3 Payment is released only after photo proof of the display is
+uploaded to the sales app for each month.
+
+SECTION 7. DISTRIBUTOR CREDIT TERMS
+7.1 General Trade distributors receive a credit period of 21 days.
+7.2 Modern Trade distributors receive a credit period of 30 days.
+7.3 If a distributor's overdue amount exceeds 60 days, fresh supplies
+are put on hold until the overdue amount is cleared.
+
+SECTION 8. NON-COMPLIANCE
+8.1 Any breach of this policy must be reported to Sales Operations.
+8.2 Repeated breaches may lead to recovery of the excess discount from
+the distributor and disciplinary action for the staff involved.
+
+SECTION 9. CONTACT
+Queries on this policy should be sent to the Sales Operations desk at
+salesops@nirmalfoods.example.

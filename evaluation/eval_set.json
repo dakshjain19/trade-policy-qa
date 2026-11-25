@@ -1,0 +1,218 @@
+[
+  {
+    "question": "What is the maximum discount for General Trade?",
+    "expected_answer": "8%",
+    "expected_section": "3",
+    "should_refuse": false
+  },
+  {
+    "question": "What discount cap applies to GT?",
+    "expected_answer": "8%",
+    "expected_section": "3",
+    "should_refuse": false
+  },
+  {
+    "question": "For a kirana distributor, what is the highest invoice discount?",
+    "expected_answer": "8%",
+    "expected_section": "3",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the maximum discount for Modern Trade?",
+    "expected_answer": "12%",
+    "expected_section": "3 and 3.1",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the current MT discount limit?",
+    "expected_answer": "12%",
+    "expected_section": "3 and 3.1",
+    "should_refuse": false
+  },
+  {
+    "question": "Has the Modern Trade discount cap changed, and what applies now?",
+    "expected_answer": "12%",
+    "expected_section": "3 and 3.1",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the maximum discount for E-commerce?",
+    "expected_answer": "10%",
+    "expected_section": "3",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the EC invoice discount ceiling?",
+    "expected_answer": "10%",
+    "expected_section": "3",
+    "should_refuse": false
+  },
+  {
+    "question": "Can a Modern Trade deal receive a 15% discount under the current policy?",
+    "expected_answer": "No. The current maximum is 12%.",
+    "expected_section": "3 and 3.1",
+    "should_refuse": false
+  },
+  {
+    "question": "Which version and effective date govern the current discount policy?",
+    "expected_answer": "Version 2.0, effective 1 April 2025.",
+    "expected_section": "3",
+    "should_refuse": false
+  },
+  {
+    "question": "Who approves a scheme worth Rs 1 lakh?",
+    "expected_answer": "Area Sales Manager.",
+    "expected_section": "4.1",
+    "should_refuse": false
+  },
+  {
+    "question": "Who signs off a scheme of Rs 80,000?",
+    "expected_answer": "Area Sales Manager.",
+    "expected_section": "4.1",
+    "should_refuse": false
+  },
+  {
+    "question": "Who approves a promotional scheme above Rs 5 lakh?",
+    "expected_answer": "Head of Sales and Finance Controller jointly.",
+    "expected_section": "4.3",
+    "should_refuse": false
+  },
+  {
+    "question": "A scheme is valued at Rs 6 lakh. Who must approve it?",
+    "expected_answer": "Head of Sales and Finance Controller jointly.",
+    "expected_section": "4.3",
+    "should_refuse": false
+  },
+  {
+    "question": "Who approves a scheme worth Rs 3 lakh?",
+    "expected_answer": "Regional Sales Manager.",
+    "expected_section": "4.2",
+    "should_refuse": false
+  },
+  {
+    "question": "How early must a scheme be submitted before launch?",
+    "expected_answer": "At least 10 working days.",
+    "expected_section": "4.4",
+    "should_refuse": false
+  },
+  {
+    "question": "Will an unapproved scheme be reimbursed?",
+    "expected_answer": "No. A scheme launched without approval will not be reimbursed.",
+    "expected_section": "4.5",
+    "should_refuse": false
+  },
+  {
+    "question": "Claims above Rs 50,000 need whose verification?",
+    "expected_answer": "RSM verification.",
+    "expected_section": "5.5",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the verification requirement for a claim of Rs 60,000?",
+    "expected_answer": "RSM verification before approval.",
+    "expected_section": "5.5",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the deadline for damaged-goods claims?",
+    "expected_answer": "Within 15 days of delivery.",
+    "expected_section": "5.1",
+    "should_refuse": false
+  },
+  {
+    "question": "Can near-expiry returns be made in Modern Trade?",
+    "expected_answer": "No. Near-expiry returns are accepted only for General Trade.",
+    "expected_section": "5.2",
+    "should_refuse": false
+  },
+  {
+    "question": "How are approved retailer claims settled, and by when?",
+    "expected_answer": "By credit note within 45 days of claim approval.",
+    "expected_section": "5.4",
+    "should_refuse": false
+  },
+  {
+    "question": "What is the monthly display rental cap per store?",
+    "expected_answer": "Rs 5,000 per store per month.",
+    "expected_section": "6.1 and 6.2",
+    "should_refuse": false
+  },
+  {
+    "question": "Are display rentals available to General Trade stores?",
+    "expected_answer": "No. Display rental is for Modern Trade stores only.",
+    "expected_section": "6.1",
+    "should_refuse": false
+  },
+  {
+    "question": "What proof is needed for display rental payment?",
+    "expected_answer": "Photo proof uploaded to the sales app for each month.",
+    "expected_section": "6.3",
+    "should_refuse": false
+  },
+  {
+    "question": "What credit period do General Trade distributors get?",
+    "expected_answer": "21 days.",
+    "expected_section": "7.1",
+    "should_refuse": false
+  },
+  {
+    "question": "How many days of credit are given to GT distributors?",
+    "expected_answer": "21 days.",
+    "expected_section": "7.1",
+    "should_refuse": false
+  },
+  {
+    "question": "What credit period applies to Modern Trade distributors?",
+    "expected_answer": "30 days.",
+    "expected_section": "7.2",
+    "should_refuse": false
+  },
+  {
+    "question": "What does ASM stand for?",
+    "expected_answer": "Area Sales Manager.",
+    "expected_section": "2.5",
+    "should_refuse": false
+  },
+  {
+    "question": "What does RSM stand for?",
+    "expected_answer": "Regional Sales Manager.",
+    "expected_section": "2.5",
+    "should_refuse": false
+  },
+  {
+    "question": "Does this policy specify employee annual leave entitlement?",
+    "expected_answer": "The policy does not cover this.",
+    "expected_section": "1",
+    "should_refuse": true
+  },
+  {
+    "question": "What is the employee travel reimbursement limit?",
+    "expected_answer": "The policy does not cover this.",
+    "expected_section": "1",
+    "should_refuse": true
+  },
+  {
+    "question": "What is the payroll processing date?",
+    "expected_answer": "The policy does not cover this.",
+    "expected_section": "1",
+    "should_refuse": true
+  },
+  {
+    "question": "What is the company's maternity leave policy?",
+    "expected_answer": "The policy does not cover this.",
+    "expected_section": "1",
+    "should_refuse": true
+  },
+  {
+    "question": "What is the distributor credit limit in rupees?",
+    "expected_answer": "The policy does not cover this.",
+    "expected_section": "7",
+    "should_refuse": true
+  },
+  {
+    "question": "What is the sales team's annual bonus?",
+    "expected_answer": "The policy does not cover this.",
+    "expected_section": "1",
+    "should_refuse": true
+  }
+]
