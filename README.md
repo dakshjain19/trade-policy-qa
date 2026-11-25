@@ -1,6 +1,6 @@
 # Trade Policy Question Answering Assistant
 
-A local Python 3.11+ command-line assistant for a growing corpus of versioned trade-policy documents. It combines structure-aware clause parsing, BM25 keyword retrieval, sentence-transformer semantic retrieval, hard filtering of superseded clauses, and grounded answer generation through Anthropic Claude.
+A local Python 3.11+ command-line assistant for a growing corpus of versioned trade-policy documents. It combines structure-aware clause parsing, BM25 keyword retrieval, sentence-transformer semantic retrieval, hard filtering of superseded clauses, and grounded answer generation through Google Gemini.
 
 ## Design note
 
@@ -20,7 +20,7 @@ A local Python 3.11+ command-line assistant for a growing corpus of versioned tr
 - `src/parser.py`: section/subclause parser and explicit historical-value record.
 - `src/indexer.py`: BM25 corpus and normalized sentence embeddings.
 - `src/retrieval.py`: hybrid rank fusion, current-only filtering, nested-rule expansion, scope refusal.
-- `src/generation.py`: Claude API prompt and citation validation.
+- `src/generation.py`: Gemini API prompt and citation validation.
 - `evaluation/eval_set.json`: 36-question gold set.
 - `evaluation/run_eval.py`: answer, citation, refusal, and superseded-leak metrics.
 - `tests/`: parser, filtering, nested retrieval, and refusal tests.
@@ -39,22 +39,17 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set the Anthropic key in your environment (do not put it in source control):
+Set your Gemini API key in the environment (do not put it in source control):
 
 ```powershell
-$env:ANTHROPIC_API_KEY="your-key"
+$env:GEMINI_API_KEY="your-key"
 ```
 
 ```bash
-export ANTHROPIC_API_KEY="your-key"
+export GEMINI_API_KEY="your-key"
 ```
 
-Optional model override:
-
-```bash
-# Default: claude-haiku-5-5
-export ANTHROPIC_MODEL="claude-haiku-5-5"
-```
+The current implementation uses `gemini-3.5-flash-lite`.
 
 ## Build the index
 
@@ -74,7 +69,7 @@ python ask.py "Who approves a scheme above Rs 5 lakh?"
 python ask.py "What is the employee leave policy?"
 ```
 
-The HR question is refused without calling Claude. Other questions require `ANTHROPIC_API_KEY`.
+The HR question is refused without calling Gemini. Answerable questions require `GEMINI_API_KEY`.
 
 ## Tests and evaluation
 
@@ -83,7 +78,7 @@ pytest -q
 python evaluation/run_eval.py
 ```
 
-The evaluation calls Claude for answerable cases, so it requires a valid API key and network access. The test suite builds a temporary index and downloads the embedding model on first run.
+The evaluation calls Gemini for answerable cases, so it requires a valid API key and network access. The test suite builds a temporary index and downloads the embedding model on first run.
 
 **Expected evaluation target:** 100% refusal accuracy on the explicit scope-boundary cases; 100% citation accuracy when the generated answer includes all required source sections; zero superseded-value leaks. Answer accuracy is model- and prompt-dependent and should be measured rather than claimed in advance. The project intentionally does not fabricate a passing score before execution.
 
@@ -97,7 +92,7 @@ For a larger corpus, put each source document as a `.txt` file in `data/`; the i
 - Version 1.0 is mentioned only as `2024`; the source gives no exact effective date, so the historical record says that explicitly.
 - The parser handles the supplied numbered-heading style and ordinary numbered subclauses. New document templates may need additional parsers.
 - The scope guard is deliberately conservative for HR topics named in Section 1. It does not claim that every possible out-of-scope topic can be classified perfectly.
-- Claude API model availability can change; set `ANTHROPIC_MODEL` to a currently enabled Claude model if the documented default is unavailable.
+- Gemini model availability can change; update the model name in `src/generation.py` if the configured model is unavailable.
 - The current sample index is local and rebuildable. It is not a multi-tenant or production document-management system.
 
 ## Evaluation Results
